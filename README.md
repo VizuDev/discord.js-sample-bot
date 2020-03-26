@@ -1,13 +1,37 @@
-***Do you want to make your own Discord bot? This is going to help you!***
+# Sample Discord.JS Bot
+A discord bot made by the VizuDev team for making the coding experience easier for begginers
 
-[![ale1](https://media.discordapp.net/attachments/563973321352544267/573268022286876702/banner1.png)](https://alebot.ml/)
-[![ale2](https://media.discordapp.net/attachments/563973321352544267/573268039903215626/banner2.png)](https://discordapp.com/oauth2/authorize?client_id=522158282370973700&permissions=8&redirect_uri=https%3A%2F%2Falebot.ml&scope=bot)
-[![ale3](https://media.discordapp.net/attachments/563973321352544267/573268047767404564/banner3.png)](https://alebot.ml/documentation)
+# Features
+- Command handler w/ aliases
+- Event handler
+- Ready event with ASCII table with commands
+- Ping command and user-friendly help command.
 
+# Pre-installation requeriments
+- Node.js & NPM
+- Basic knowledge of Node.js
+- Git
 
-[![discord](https://cdn.discordapp.com/attachments/572906360363286549/573620917276770316/discord.png)](https://discord.gg/D6SCpjz)
+# Installation
 
-<br>**Join my Discord server for help.**
+First, we clone this repository
+```bash 
+$ git clone https://github.com/VizuDev/discord.js-sample-bot.git
+```
 
+Once its cloned, just install the dependencies
+```bash
+$ npm install
+```
 
-Discord bot written in nodejs depending on discord.js latest version. <3
+Now, the real fun starts.
+
+# Configuration
+You will need to check every file for having an idea, but here are some first steps:
+- Go to the **config.json** file and modify the token and the prefix. (If you don't know how to get your bot's token, just follow [this tutorial](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token))
+- Go to the package.json file and modify the project's name, the version and everything that do you want to.
+- Go to the final line of the src/index.js file and modify the client.setActivity line with the activity you would like the bot to have.
+
+# Starting up
+Just run `node src/index.js`, and no error should appear
+If there is any error, start a new issue or join our [support server](https://discord.gg/3xuwSU6)

@@ -1,4 +1,4 @@
 {
-  "token": "insert-bot-token-here",
-  "prefix": "!"
+    "token" : "very-secret-token",
+    "prefix" : "your-prefix"
 }
