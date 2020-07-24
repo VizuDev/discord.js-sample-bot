@@ -7,7 +7,7 @@ const client = new Client()
 const fs = require('fs')
 
 // Next, require our config.json file containing the bot's token 
-const config = require("config.json")
+const config = require("./config.json")
 
 // Now, we create 2 Collections; Commands and Aliases. This are the roots of our command handler
 client.commands = new Collection()
